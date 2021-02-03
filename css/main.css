@@ -59,7 +59,10 @@ header .header-icons-container .icons {
 header .icons span {
   color: white;
 }
-
+header .icons span:hover {
+  color: var(--blue-secondary);
+  transition-duration: 0.3s;
+}
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -90,6 +93,7 @@ nav .profile-link a {
 nav .profile-link a:hover {
   color: #f05454;
   border-bottom: 1px solid #f05454;
+  transition-duration: 0.3s;
 }
 
 .home-main {
@@ -163,4 +167,13 @@ nav .profile-link a:hover {
   border-bottom: 1px solid #cdd2da;
   padding-bottom: 20px;
   text-align: center;
+}
+.blogs-button {
+  border: 1px solid #f05454;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+.blogs-button:hover {
+  background-color: #f05454;
+  transition-duration: 1s;
 }
